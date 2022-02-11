@@ -1,0 +1,29 @@
+.hero {
+  background-color: #64644b;
+  padding: 15px;
+}
+.hero h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.hero h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 41px;
+}
+.hero .intro {
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 14px;
+  padding: 0 20px 0 0;
+}
+.btn-icons {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  justify-content: space-between;
+}
+.hero .fa-brands {
+  font-size: 27px;
+}
