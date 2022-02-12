@@ -37,7 +37,7 @@ const Skills = () => {
       <div className="img-container">
         <img className="skill-img" src={sassLogo} alt="sass" />
       </div>
-      <div className="img-container">
+      <div className="img-container webpack">
         <img className="skill-img" src={webpackLogo} alt="webpack" />
       </div>
     </div>

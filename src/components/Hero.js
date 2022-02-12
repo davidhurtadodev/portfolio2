@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Hero.css';
+import Skills from './Skills';
 
 const Hero = () => {
   return (

@@ -1,0 +1,15 @@
+.projects {
+  text-align: center;
+  background: #212529;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}

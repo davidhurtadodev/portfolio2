@@ -1,0 +1,31 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #353c42;
+  border-radius: 8px;
+  width: 300px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.project .img-container {
+  width: 100%;
+}
+.project .text-container {
+  text-align: left;
+  padding: 10px 20px 20px;
+}
+.project h4 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.project p {
+  font-size: 15px;
+}

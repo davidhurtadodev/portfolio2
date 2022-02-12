@@ -2,4 +2,16 @@
   background-color: #212529;
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  /* gap: 15px; */
+  padding-top: 30px;
+}
+.skills .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.skills .webpack {
+  grid-column: 1 / 3;
 }
