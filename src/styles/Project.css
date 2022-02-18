@@ -5,27 +5,158 @@
   background-color: #353c42;
   border-radius: 8px;
   width: 300px;
-  margin: 15px 0;
+  margin: 0 0 100px;
   cursor: pointer;
+}
+.project-wrapper {
+  position: relative;
 }
 .project img {
   max-width: 100%;
   height: auto;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 8px;
 }
 .project .img-container {
-  width: 100%;
+  width: 82%;
+  position: absolute;
+  top: -40px;
 }
 .project .text-container {
-  text-align: left;
-  padding: 10px 20px 20px;
+  text-align: center;
+  padding: 120px 20px 20px;
+  z-index: 2;
 }
 .project h4 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 10px;
 }
 .project p {
-  font-size: 15px;
+  font-size: 16px;
+}
+.time-tracking .img-container {
+  width: 100%;
+}
+
+.project .demo,
+.project .code {
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100px;
+  height: 50px;
+  margin: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.project .demo {
+  background-color: #64644b;
+  border: solid 1px #64644b;
+}
+.project .code {
+  background: transparent;
+  color: #cecece;
+  border: solid 1px #cecece;
+}
+.project .fa-github {
+  font-size: 20px;
+  margin-right: 4px;
+}
+.project .btn-container {
+  margin-bottom: 20px;
+  z-index: 2;
+}
+.triangle {
+  width: 200px;
+  height: 200px;
+  border-left: 1px solid #64644b;
+  position: absolute;
+  right: -130px;
+  top: -100px;
+  display: block;
+  animation: horizontal-rotate-negative 24s linear infinite alternate;
+}
+.triangle::after,
+.triangle::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  background: #64644b;
+  transform-origin: 0 0;
+}
+.triangle::before {
+  top: 0;
+  left: 0;
+  right: 4px;
+  transform: rotate(31deg);
+}
+.triangle::after {
+  bottom: 0;
+  right: 7px;
+  left: -1.5px;
+  transform: rotate(-30deg);
+}
+.circle {
+  width: 214px;
+  height: 214px;
+  border: solid 1px #64644b;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+  left: -90px;
+  top: -90px;
+  animation: horizontal-rotate-circle 12s linear infinite alternate;
+}
+.square {
+  width: 204px;
+  height: 204px;
+  border: solid 1px #64644b;
+  position: absolute;
+  top: -90px;
+  right: -90px;
+  animation: horizontal-rotate-negative 24s linear infinite alternate;
+}
+@keyframes horizontal-rotate-circle {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(8%);
+  }
+
+  50% {
+    transform: translateX(16%);
+  }
+
+  75% {
+    transform: translateX(24%);
+  }
+
+  100% {
+    transform: translateX(32%);
+  }
+}
+@keyframes horizontal-rotate-negative {
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+
+  25% {
+    transform: translateX(-8%) rotate(45deg);
+  }
+
+  50% {
+    transform: translateX(-16%) rotate(90deg);
+  }
+
+  75% {
+    transform: translateX(-24%) rotate(135deg);
+  }
+
+  100% {
+    transform: translateX(-32%) rotate(180deg);
+  }
 }
