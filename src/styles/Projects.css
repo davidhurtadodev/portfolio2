@@ -13,3 +13,15 @@
   font-weight: normal;
   margin-bottom: 15px;
 }
+.projects .underline {
+  position: relative;
+}
+.projects .underline::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #64644b;
+  bottom: -5px;
+  left: 0;
+}

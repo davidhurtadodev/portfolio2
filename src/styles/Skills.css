@@ -1,17 +1,40 @@
 .skills {
   background-color: #212529;
+  padding-top: 50px;
+  padding: 15px;
+}
+.skills-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  /* gap: 15px; */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
   padding-top: 30px;
 }
 .skills .img-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
-.skills .webpack {
-  grid-column: 1 / 3;
+.skills h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  margin: 0 0 5px;
+}
+.skills .underline {
+  width: 73px;
+  height: 1px;
+  border-top: solid 3px #64644b;
+  margin: 0 auto;
+  display: block;
+}
+.skills .title-span {
+  text-align: center;
+}
+.skills .end-line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  border-top: solid 1px #353c42;
+  margin: 70px auto 0;
 }

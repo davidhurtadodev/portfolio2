@@ -13,33 +13,40 @@ import webpackLogo from '../assets/webpack.svg';
 const Skills = () => {
   return (
     <div className="skills">
-      <div className="img-container">
-        <img className="skill-img" src={htmlLogo} alt="html" />
+      <div className="title-span">
+        <h2>Skills</h2>
+        <span className="underline"></span>
       </div>
-      <div className="img-container">
-        <img className="skill-img" src={cssLogo} alt="css" />
+      <div className="skills-container">
+        <div className="img-container">
+          <img className="skill-img" src={htmlLogo} alt="html" />
+        </div>
+        <div className="img-container">
+          <img className="skill-img" src={cssLogo} alt="css" />
+        </div>
+        <div className="img-container">
+          <img className="skill-img" src={jsLogo} alt="js" />
+        </div>
+        <div className="img-container">
+          <img className="skill-img" src={bootstrapLogo} alt="bootstrap" />
+        </div>
+        <div className="img-container">
+          <img className="skill-img" src={reactLogo} alt="react" />
+        </div>
+        <div className="img-container">
+          <img className="skill-img" src={gitLogo} alt="git" />
+        </div>
+        <div className="img-container">
+          <img className="skill-img" src={linuxLogo} alt="linux" />
+        </div>
+        <div className="img-container">
+          <img className="skill-img" src={sassLogo} alt="sass" />
+        </div>
+        <div className="img-container webpack">
+          <img className="skill-img" src={webpackLogo} alt="webpack" />
+        </div>
       </div>
-      <div className="img-container">
-        <img className="skill-img" src={jsLogo} alt="js" />
-      </div>
-      <div className="img-container">
-        <img className="skill-img" src={bootstrapLogo} alt="bootstrap" />
-      </div>
-      <div className="img-container">
-        <img className="skill-img" src={reactLogo} alt="react" />
-      </div>
-      <div className="img-container">
-        <img className="skill-img" src={gitLogo} alt="git" />
-      </div>
-      <div className="img-container">
-        <img className="skill-img" src={linuxLogo} alt="linux" />
-      </div>
-      <div className="img-container">
-        <img className="skill-img" src={sassLogo} alt="sass" />
-      </div>
-      <div className="img-container webpack">
-        <img className="skill-img" src={webpackLogo} alt="webpack" />
-      </div>
+      <span className="end-line"></span>
     </div>
   );
 };
