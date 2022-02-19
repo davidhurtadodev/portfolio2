@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   z-index: -10;
+  overflow: hidden;
 }
 
 .projects h2 {
@@ -25,4 +26,7 @@
   background: #64644b;
   bottom: -5px;
   left: 0;
+}
+.project.pokemon {
+  margin-bottom: 0;
 }

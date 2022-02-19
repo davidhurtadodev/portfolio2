@@ -19,7 +19,7 @@ const Hero = () => {
         since the 1500s
       </p>
       <div className="btn-icons">
-        <button type="button" className="contact primary-btn">
+        <button type="button" className="contact-btn primary-btn">
           Contact me
         </button>
         <div className="git-in-container">
