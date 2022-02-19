@@ -2,10 +2,14 @@ import React from 'react';
 import '../styles/Hero.css';
 import Skills from './Skills';
 import davidImg from '../assets/david.png';
+import codeVideoSrc from '../assets/videos/code-video.mp4';
 
 const Hero = () => {
   return (
     <section className="hero">
+      <video autoPlay muted loop id="codeVid">
+        <source src={codeVideoSrc} type="video/mp4" />
+      </video>
       <div className="circle-img">
         <div className="dev-container">
           <img src={davidImg} className="fluid-img" alt="David" />

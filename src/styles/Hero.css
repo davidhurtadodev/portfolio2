@@ -1,7 +1,10 @@
 .hero {
-  background-color: #64644b;
+  background-color: #353528;
   padding: 15px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: -20;
 }
 .hero h1 {
   font-size: 30px;
@@ -16,7 +19,9 @@
   margin-bottom: 20px;
 }
 .hero p {
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.12px;
 }
 .btn-icons {
   display: flex;
@@ -44,4 +49,12 @@
 }
 .hero .git-in-container {
   display: flex;
+}
+#codeVid {
+  position: absolute;
+  opacity: 0.04;
+  top: 0;
+  width: 300%;
+  left: -35%;
+  z-index: -10;
 }
