@@ -160,3 +160,75 @@
     transform: translateX(-32%) rotate(180deg);
   }
 }
+@media screen and (min-width: 992px) {
+  .project {
+    flex-direction: row;
+    width: auto;
+    background: transparent;
+    border-radius: 0;
+    /* width: 90%; */
+    display: flex;
+    justify-content: center;
+    margin: 0 0 130px;
+  }
+  .project .img-container {
+    position: static;
+  }
+  .project .btn-container {
+    display: flex;
+    margin: 25px 0 0;
+  }
+  .project .text-container {
+    text-align: left;
+    padding: 0;
+  }
+  .project .demo {
+    margin-left: 0;
+  }
+  .project .demo,
+  .project .code {
+    width: 110px;
+  }
+  .project .img-container {
+    max-width: 630px;
+    margin: 0 60px;
+    width: 60%;
+  }
+  .time-tracking .img-container {
+    max-width: 775px;
+  }
+  .project.right {
+    flex-direction: row-reverse;
+  }
+  .project .text-btn {
+    max-width: 460px;
+  }
+  .time-wrapper .project .img-container {
+    max-width: 775px;
+    margin: 0 auto 0 0;
+    position: relative;
+    left: -5%;
+  }
+
+  .project.right .img-container {
+    margin: 0 0 0 auto;
+  }
+  .project.left .img-container {
+    margin: 0 auto 0 0;
+  }
+  .circle {
+    width: 254px;
+    height: 254px;
+    top: 70px;
+  }
+  .square {
+    width: 254px;
+    height: 254px;
+    top: 50px;
+  }
+  .triangle {
+    width: 250px;
+    height: 250px;
+    top: 40px;
+  }
+}

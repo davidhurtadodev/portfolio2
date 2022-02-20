@@ -44,7 +44,7 @@ const projectsData = [
 
 const Projects = () => {
   const renderedProjects = projectsData.map(
-    ({ title, img, info, url, projectClass, figure }) => {
+    ({ title, img, info, url, projectClass, figure }, index) => {
       return (
         <Project
           title={title}
@@ -54,6 +54,7 @@ const Projects = () => {
           url={url}
           key={title}
           figure={figure}
+          index={index}
         />
       );
     }

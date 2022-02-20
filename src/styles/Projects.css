@@ -34,4 +34,8 @@
   .projects {
     padding-top: 200px;
   }
+  .project-wrapper {
+    width: 90%;
+    max-width: 1150px;
+  }
 }
