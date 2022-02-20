@@ -18,7 +18,7 @@ const Project = ({ img, title, info, projectClass, figure }) => {
             Demo
           </button>
           <button type="button" className="code">
-            <i class="fa-brands fa-github pointer"></i>Code
+            <i className="fa-brands fa-github pointer"></i>Code
           </button>
         </div>
       </div>

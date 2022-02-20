@@ -14,8 +14,8 @@ const Skills = () => {
   return (
     <div className="skills">
       <div className="title-span">
-        <h2>Skills</h2>
-        <span className="underline"></span>
+        <h2 className="hide-lg">Skills</h2>
+        <span className="hide-lg underline"></span>
       </div>
       <div className="skills-container">
         <div className="img-container">
@@ -46,7 +46,7 @@ const Skills = () => {
           <img className="skill-img" src={webpackLogo} alt="webpack" />
         </div>
       </div>
-      <span className="end-line"></span>
+      <span className="end-line hide-lg"></span>
     </div>
   );
 };

@@ -30,3 +30,8 @@
 .project.pokemon {
   margin-bottom: 0;
 }
+@media screen and (min-width: 992px) {
+  .projects {
+    padding-top: 200px;
+  }
+}

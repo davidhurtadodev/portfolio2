@@ -1,4 +1,4 @@
-.hero {
+.hero-inside {
   background-color: #353528;
   padding: 15px;
   text-align: center;
@@ -6,19 +6,19 @@
   overflow: hidden;
   z-index: -20;
 }
-.hero h1 {
+.hero-inside h1 {
   font-size: 30px;
   font-weight: bold;
 }
-.hero h2 {
+.hero-inside h2 {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 8px;
 }
-.hero .intro {
+.hero-inside .intro {
   margin-bottom: 20px;
 }
-.hero p {
+.hero-inside p {
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.12px;
@@ -29,11 +29,11 @@
   align-items: center;
   margin-top: 40px;
 }
-.hero .fa-brands {
+.hero-inside .fa-brands {
   font-size: 30px;
   margin: 15px 10px;
 }
-.hero .circle-img {
+.hero-inside .circle-img {
   width: 86px;
   height: 86px;
   border-radius: 50%;
@@ -41,20 +41,66 @@
   overflow: hidden;
   margin: 0 auto 10px;
 }
-.hero .dev-container {
+.hero-inside .dev-container {
   width: 130px;
   position: relative;
   left: 4px;
   top: 5px;
 }
-.hero .git-in-container {
+.hero-inside .git-in-container {
   display: flex;
 }
 #codeVid {
   position: absolute;
   opacity: 0.04;
-  top: 0;
+  top: -20%;
   width: 300%;
   left: -35%;
   z-index: -10;
+}
+
+@media screen and (min-width: 992px) {
+  .hero-inside {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 0;
+  }
+  .hero-inside .text-btn-container {
+    text-align: left;
+    width: 50%;
+    text-align: left;
+    width: 70%;
+    margin: 10% 0 0 8%;
+  }
+  .hero-inside .btn-icons {
+    flex-direction: row;
+    margin-top: 0;
+  }
+  .hero-inside h1 {
+    font-size: 60px;
+    font-weight: 400;
+  }
+  .hero-inside h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .hero-inside p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .hero-inside .circle-img {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background-color: transparent;
+    margin: 0;
+  }
+  .hero-inside .dev-container {
+    width: 90%;
+
+    left: 3vw;
+  }
+  .hero-inside .primary-btn {
+    margin-right: 20px;
+  }
 }
