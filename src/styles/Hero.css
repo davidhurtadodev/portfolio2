@@ -108,5 +108,6 @@
   }
   .hero-skills {
     position: relative;
+    z-index: 100;
   }
 }

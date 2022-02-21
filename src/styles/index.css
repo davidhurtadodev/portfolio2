@@ -5,6 +5,9 @@
   color: #cecece;
   box-sizing: border-box;
 }
+button {
+  cursor: pointer;
+}
 .pointer {
   cursor: pointer;
 }
