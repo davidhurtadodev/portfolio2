@@ -8,7 +8,10 @@ const Contact = () => {
         Contact <span className="underline">me</span>
       </h2>
       <div className="form-container">
-        <form>
+        <form
+          action="https://formsubmit.co/davidhuertado@gmail.com"
+          method="POST"
+        >
           <label htmlFor="name">Name</label>
           <input type="text" id="name" />
 
@@ -18,7 +21,7 @@ const Contact = () => {
           <label htmlFor="message">Message</label>
           <textarea id="message"> </textarea>
           <div className="btn-container">
-            <button type="button" className="contact-btn">
+            <button type="submit" className="contact-btn">
               Contact me
             </button>
           </div>

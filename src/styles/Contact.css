@@ -70,3 +70,12 @@
   justify-content: center;
   margin-top: 50px;
 }
+@media screen and (min-width: 992px) {
+  .contact {
+    padding: 50px 20px;
+  }
+  .contact .form-container {
+    width: 50%;
+    max-width: 670px;
+  }
+}

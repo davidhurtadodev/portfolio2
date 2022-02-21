@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Projects.css';
 import Project from './Project';
 import splitterMobile from '../assets/splitter-mobile.png';
-import pokemonMobile from '../assets/pokemon-mobile.png';
+import pokemonMobile from '../assets/Safari.png';
 import timeTrackerMobile from '../assets/time-tracker-mobile.png';
 import shorteningImg from '../assets/shortening.png';
 import trackerLaptop from '../assets/time-tracker-laptop.png';
