@@ -99,9 +99,8 @@
     margin: 0 2vw 0 auto;
   }
   .hero-inside .dev-container {
-    width: 110%;
+    width: 100%;
     max-width: 430px;
-
     left: auto;
   }
   .hero-inside .primary-btn {
