@@ -13,10 +13,10 @@ const Contact = () => {
           method="POST"
         >
           <label htmlFor="name">Name</label>
-          <input type="text" id="name" />
+          <input type="text" id="name" required />
 
           <label htmlFor="mail">Email</label>
-          <input type="email" id="mail" />
+          <input type="email" id="mail" required />
 
           <label htmlFor="message">Message</label>
           <textarea id="message"> </textarea>
