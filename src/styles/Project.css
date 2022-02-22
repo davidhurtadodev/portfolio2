@@ -6,9 +6,11 @@
   border-radius: 8px;
   width: 300px;
   margin: 0 0 100px;
+  z-index: 100;
 }
 .project-wrapper {
   position: relative;
+  z-index: 100;
 }
 .project img {
   max-width: 100%;
@@ -76,6 +78,7 @@
   top: -100px;
   display: block;
   animation: horizontal-rotate-negative 24s linear infinite alternate;
+  z-index: -1;
 }
 .triangle::after,
 .triangle::before {
@@ -103,7 +106,7 @@
   border: solid 1px #64644b;
   border-radius: 50%;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   left: -90px;
   top: -90px;
   animation: horizontal-rotate-circle 12s linear infinite alternate;
@@ -116,6 +119,7 @@
   top: -90px;
   right: -90px;
   animation: horizontal-rotate-negative 24s linear infinite alternate;
+  z-index: -1;
 }
 @keyframes horizontal-rotate-circle {
   0% {
@@ -159,6 +163,7 @@
     transform: translateX(-32%) rotate(180deg);
   }
 }
+
 @media screen and (min-width: 992px) {
   .project {
     flex-direction: row;
@@ -229,5 +234,6 @@
     width: 250px;
     height: 250px;
     top: 40px;
+    right: -60px;
   }
 }

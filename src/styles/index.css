@@ -8,6 +8,9 @@
 button {
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
 .pointer {
   cursor: pointer;
 }

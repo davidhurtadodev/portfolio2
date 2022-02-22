@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Project.css';
 
-const Project = ({ img, title, info, projectClass, figure, index }) => {
+const Project = ({ img, title, info, projectClass, figure, index, url }) => {
   return (
     <div
       className={
@@ -28,7 +28,7 @@ const Project = ({ img, title, info, projectClass, figure, index }) => {
           </div>
           <div className="btn-container">
             <button type="button" className="demo">
-              Demo
+              <a href={url}>Demo</a>
             </button>
             <button type="button" className="code">
               <i className="fa-brands fa-github pointer"></i>Code
