@@ -20,9 +20,11 @@ const Hero = () => {
           <h1>David Hurtado</h1>
           <h2>Frontend web developer</h2>
           <p className="intro">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            I'm a Frontend developer that loves creating responsive, beautiful
+            and interactives interfaces. I'm constantly seeking to learn new
+            concepts and technologies that will help me develop what you need.
+            Right now, I'm focused in deepening in JavaScript frameworks and
+            backend technologies.
           </p>
           <div className="btn-icons">
             <a href="#contactMe">
