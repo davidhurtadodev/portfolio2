@@ -3,7 +3,6 @@ import '../styles/Projects.css';
 import Project from './Project';
 import splitterMobile from '../assets/splitter-mobile.png';
 import pokemonMobile from '../assets/Safari.png';
-import timeTrackerMobile from '../assets/time-tracker-mobile.png';
 import shorteningImg from '../assets/shortening.png';
 import trackerLaptop from '../assets/time-tracker-laptop.png';
 
@@ -15,6 +14,7 @@ const projectsData = [
     url: 'https://distracted-archimedes-a76d3e.netlify.app',
     projectClass: 'time-tracking',
     figure: 'triangle',
+    repo: 'https://github.com/davidhuertado/timeTrackingDashboard',
   },
   {
     title: 'Shortly',
@@ -23,6 +23,7 @@ const projectsData = [
     url: 'https://pedantic-perlman-6ce2c6.netlify.app/',
     projectClass: 'shortly',
     figure: 'circle',
+    repo: 'https://github.com/davidhuertado/shortening-landing',
   },
   {
     title: 'Splitter',
@@ -31,6 +32,7 @@ const projectsData = [
     url: 'https://affectionate-euler-2101cc.netlify.app/',
     projectClass: 'splitter',
     figure: 'square',
+    repo: 'https://github.com/davidhuertado/tip-calculator',
   },
   {
     title: 'Pokemon Memory Game',
@@ -39,12 +41,13 @@ const projectsData = [
     url: 'https://vibrant-allen-b11d1b.netlify.app/',
     projectClass: 'pokemon',
     figure: 'circle',
+    repo: 'https://github.com/davidhuertado/memory-game',
   },
 ];
 
 const Projects = () => {
   const renderedProjects = projectsData.map(
-    ({ title, img, info, url, projectClass, figure }, index) => {
+    ({ title, img, info, url, projectClass, figure, repo }, index) => {
       return (
         <Project
           title={title}
@@ -55,6 +58,7 @@ const Projects = () => {
           key={title}
           figure={figure}
           index={index}
+          repo={repo}
         />
       );
     }

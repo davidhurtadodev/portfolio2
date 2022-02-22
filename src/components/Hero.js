@@ -5,9 +5,6 @@ import davidImg from '../assets/david.png';
 import codeVideoSrc from '../assets/videos/code-video.mp4';
 
 const Hero = () => {
-  const codeVid = document.getElementById('codeVid');
-
-  // codeVid.playbackRate = 2;
   return (
     <div className="hero-skills">
       <section className="hero-inside">
@@ -28,15 +25,21 @@ const Hero = () => {
             ever since the 1500s
           </p>
           <div className="btn-icons">
-            <button type="button" className="contact-btn primary-btn">
-              Contact me
-            </button>
+            <a href="#contactMe">
+              <button type="button" className="contact-btn primary-btn">
+                Contact me
+              </button>
+            </a>
             <div className="git-in-container">
               <div>
-                <i className="fa-brands fa-github pointer"></i>
+                <a href="https://github.com/davidhuertado">
+                  <i className="fa-brands fa-github pointer"></i>
+                </a>
               </div>
               <div>
-                <i className="fa-brands fa-linkedin-in pointer"></i>
+                <a href="https://linkedin.com/in/david-hurtado-g">
+                  <i className="fa-brands fa-linkedin-in pointer"></i>
+                </a>
               </div>
             </div>
           </div>

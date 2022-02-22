@@ -5,6 +5,9 @@
   color: #cecece;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 button {
   cursor: pointer;
 }
