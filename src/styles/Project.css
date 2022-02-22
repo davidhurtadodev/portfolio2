@@ -56,10 +56,20 @@
   background-color: #64644b;
   border: solid 1px #64644b;
 }
+.project .demo:hover {
+  background-color: #7d7d5e;
+}
 .project .code {
   background: transparent;
   color: #cecece;
   border: solid 1px #cecece;
+}
+.project .code:hover {
+  background-color: #cecece;
+  color: #64644b;
+}
+.project .code:hover .fa-github {
+  color: #64644b;
 }
 .project .fa-github {
   font-size: 20px;

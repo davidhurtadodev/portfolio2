@@ -36,12 +36,12 @@ const Project = ({
             <p>{info}</p>
           </div>
           <div className="btn-container">
-            <a href={url}>
+            <a href={url} target="_blank" rel="noreferrer">
               <button type="button" className="demo">
                 Demo
               </button>
             </a>
-            <a href={repo}>
+            <a href={repo} target="_blank" rel="noreferrer">
               <button type="button" className="code">
                 <i className="fa-brands fa-github pointer"></i>Code
               </button>

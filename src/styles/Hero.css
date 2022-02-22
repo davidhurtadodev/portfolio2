@@ -56,7 +56,7 @@
 }
 #codeVid {
   position: absolute;
-  opacity: 0.04;
+  opacity: 0.02;
   top: -20%;
   width: 300%;
   left: -35%;
@@ -68,6 +68,10 @@ input:-webkit-autofill:focus {
 }
 
 @media screen and (min-width: 992px) {
+  #codeVid {
+    width: 150%;
+    left: -15%;
+  }
   .hero-inside {
     display: flex;
     flex-direction: row-reverse;
@@ -88,7 +92,7 @@ input:-webkit-autofill:focus {
   }
   .hero-inside h1 {
     font-size: 60px;
-    font-weight: 400;
+    font-weight: bold;
   }
   .hero-inside h2 {
     font-size: 30px;

@@ -65,6 +65,9 @@
   padding: 11px 20px;
   background-color: #64644b;
 }
+.contact .contact-btn:hover {
+  background-color: #7d7d5e;
+}
 .contact .btn-container {
   display: flex;
   justify-content: center;
