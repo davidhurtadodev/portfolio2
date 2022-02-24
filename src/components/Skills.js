@@ -6,7 +6,7 @@ import cssLogo from '../assets/css.svg';
 import jsLogo from '../assets/js.svg';
 import bootstrapLogo from '../assets/bootstrap.svg';
 import reactLogo from '../assets/react.svg';
-import gitLogo from '../assets/Git-logo.svg';
+import gitLogo from '../assets/git.svg';
 import linuxLogo from '../assets/linux.svg';
 import sassLogo from '../assets/sass.svg';
 import webpackLogo from '../assets/webpack.svg';

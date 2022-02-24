@@ -35,8 +35,8 @@
   border-color: #000 transparent transparent transparent;
 }
 .skill-img {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 .tooltip:hover .skill-img {
-  opacity: 1;
+  opacity: 0.6;
 }
