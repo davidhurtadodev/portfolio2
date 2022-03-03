@@ -9,7 +9,7 @@ const Contact = () => {
       </h2>
       <div className="form-container">
         <form
-          action="https://formsubmit.co/davidhuertado@gmail.com"
+          action="https://formsubmit.co/davidlhurtadog@gmail.com"
           method="POST"
         >
           <label htmlFor="name">Name</label>
