@@ -19,9 +19,7 @@ const Contact = () => {
           <input type="email" name="email" id="mail" required />
 
           <label htmlFor="message">Message</label>
-          <textarea id="message" name="message">
-            {' '}
-          </textarea>
+          <textarea id="message" name="message"></textarea>
           <div className="btn-container">
             <button type="submit" className="contact-btn">
               Contact me
