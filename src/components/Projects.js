@@ -2,19 +2,28 @@ import React from 'react';
 import '../styles/Projects.css';
 import Project from './Project';
 import splitterMobile from '../assets/splitter-mobile.png';
-import pokemonMobile from '../assets/Safari.png';
+import todoImg from '../assets/todo-app.png';
 import shorteningImg from '../assets/shortening.png';
 import trackerLaptop from '../assets/time-tracker-laptop.png';
 import spaceApp from '../assets/space-app.png';
 
 const projectsData = [
   {
+    title: 'TODO App',
+    info: 'TODO app made with React and Typescript. It has dark theme and use localStorage',
+    img: todoImg,
+    url: 'https://incomparable-zuccutto-99f90c.netlify.app/',
+    projectClass: 'todo',
+    figure: 'triangle',
+    repo: 'https://github.com/davidhuertado/todo-list-react',
+  },
+  {
     title: 'Time Tracking Dashboard',
     info: 'Tracking Dashboard made with React, class components and states',
     img: trackerLaptop,
     url: 'https://distracted-archimedes-a76d3e.netlify.app',
     projectClass: 'time-tracking',
-    figure: 'triangle',
+    figure: 'circle',
     repo: 'https://github.com/davidhuertado/timeTrackingDashboard',
   },
   {
@@ -23,7 +32,7 @@ const projectsData = [
     img: spaceApp,
     url: 'https://sleepy-poincare-4948ea.netlify.app/',
     projectClass: 'space-app',
-    figure: 'circle',
+    figure: 'square',
     repo: 'https://github.com/davidhuertado/space-app',
   },
   {
@@ -32,7 +41,7 @@ const projectsData = [
     img: shorteningImg,
     url: 'https://pedantic-perlman-6ce2c6.netlify.app/',
     projectClass: 'shortly',
-    figure: 'square',
+    figure: 'triangle',
     repo: 'https://github.com/davidhuertado/shortening-landing',
   },
   {
@@ -44,15 +53,6 @@ const projectsData = [
     figure: 'circle',
     repo: 'https://github.com/davidhuertado/tip-calculator',
   },
-  // {
-  //   title: 'Pokemon Memory Game',
-  //   info: 'Memory game made with React with use of REST API',
-  //   img: pokemonMobile,
-  //   url: 'https://vibrant-allen-b11d1b.netlify.app/',
-  //   projectClass: 'pokemon',
-  //   figure: 'circle',
-  //   repo: 'https://github.com/davidhuertado/memory-game',
-  // },
 ];
 
 const Projects = () => {
