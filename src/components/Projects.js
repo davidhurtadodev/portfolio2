@@ -6,15 +6,25 @@ import todoImg from '../assets/todo-app.png';
 import shorteningImg from '../assets/shortening.png';
 import trackerLaptop from '../assets/time-tracker-laptop.png';
 import spaceApp from '../assets/space-app.png';
+import myLibrary from '../assets/my-library.png';
 
 const projectsData = [
+  {
+    title: 'My Library',
+    info: `Fullstack app with an API REST made with Express, and it's frontend client made with React. Use of JSONWebToken for authentication.`,
+    img: myLibrary,
+    url: 'https://my-library.fly.dev/',
+    projectClass: 'library',
+    figure: 'triangle',
+    repo: 'https://github.com/davidhuertado/library-backend',
+  },
   {
     title: 'TODO App',
     info: 'TODO app made with React and Typescript. It has dark theme and use localStorage',
     img: todoImg,
     url: 'https://incomparable-zuccutto-99f90c.netlify.app/',
     projectClass: 'todo',
-    figure: 'triangle',
+    figure: 'circle',
     repo: 'https://github.com/davidhuertado/todo-list-react',
   },
   {
@@ -23,7 +33,7 @@ const projectsData = [
     img: trackerLaptop,
     url: 'https://distracted-archimedes-a76d3e.netlify.app',
     projectClass: 'time-tracking',
-    figure: 'circle',
+    figure: 'square',
     repo: 'https://github.com/davidhuertado/timeTrackingDashboard',
   },
   {
@@ -32,7 +42,7 @@ const projectsData = [
     img: spaceApp,
     url: 'https://sleepy-poincare-4948ea.netlify.app/',
     projectClass: 'space-app',
-    figure: 'square',
+    figure: 'circle',
     repo: 'https://github.com/davidhuertado/space-app',
   },
   {

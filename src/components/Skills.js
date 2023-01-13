@@ -7,20 +7,20 @@ import jsLogo from '../assets/js.svg';
 import bootstrapLogo from '../assets/bootstrap.svg';
 import reactLogo from '../assets/react.svg';
 import gitLogo from '../assets/git.svg';
-import linuxLogo from '../assets/linux.svg';
+import reduxLogo from '../assets/redux.svg';
 import sassLogo from '../assets/sass.svg';
-import webpackLogo from '../assets/webpack.svg';
+import typeScriptLogo from '../assets/typescript.svg';
 
 const skillsArray = [
+  { name: 'TypeScript', src: typeScriptLogo },
+  { name: 'React', src: reactLogo },
+  { name: 'Redux', src: reduxLogo },
+  { name: 'JavaScript', src: jsLogo },
   { name: 'HTML', src: htmlLogo },
   { name: 'CSS', src: cssLogo },
-  { name: 'JavaScript', src: jsLogo },
   { name: 'Bootstrap', src: bootstrapLogo },
-  { name: 'React.js', src: reactLogo },
   { name: 'Git', src: gitLogo },
-  { name: 'Linux', src: linuxLogo },
   { name: 'Sass', src: sassLogo },
-  { name: 'Webpack', src: webpackLogo },
 ];
 
 const Skills = () => {

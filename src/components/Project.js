@@ -22,7 +22,7 @@ const Project = ({
       <span className={figure}></span>
       <div
         className={
-          index == 0 || index % 2 == 0
+          index === 0 || index % 2 === 0
             ? `project left ${projectClass}`
             : `project right ${projectClass}`
         }

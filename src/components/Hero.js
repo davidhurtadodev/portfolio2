@@ -20,11 +20,20 @@ const Hero = () => {
           <h1>David Hurtado</h1>
           <h2>Frontend web developer</h2>
           <p className="intro">
-            I'm a Frontend developer that loves creating responsive, beautiful
-            and interactives interfaces. I'm constantly seeking to learn new
-            concepts and technologies that will help me develop what you need.
-            Right now, I'm focused in deepening in JavaScript frameworks and
-            backend technologies.
+            Do you think it’s crazy to make a career switch from music to
+            software engineering? I can show you that it isn't. I'm a frontend
+            developer with a year of experience and a senior symphonic musician.
+            I specialize in the frontend of the Web and coding UI, and I am
+            passionate about creating visually stunning and user-friendly
+            interfaces. In my year of experience, I have worked making the
+            frontend of different websites from scratch and improving the
+            frontend of existing websites. I love working with React and
+            TypeScript. My background in music and my love of web development
+            have led me to a career in frontend development, where I am able to
+            combine my technical skills with my creative mindset. I've honed my
+            communication and teamwork skills in my work as a musician, and I
+            bring that same level of assertiveness and self-discipline to a
+            frontend developer role.
           </p>
           <div className="btn-icons">
             <a href="#contactMe">
