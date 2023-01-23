@@ -12,9 +12,9 @@ import sassLogo from '../assets/sass.svg';
 import typeScriptLogo from '../assets/typescript.svg';
 
 const skillsArray = [
-  { name: 'TypeScript', src: typeScriptLogo },
   { name: 'React', src: reactLogo },
   { name: 'Redux', src: reduxLogo },
+  { name: 'TypeScript', src: typeScriptLogo },
   { name: 'JavaScript', src: jsLogo },
   { name: 'HTML', src: htmlLogo },
   { name: 'CSS', src: cssLogo },
