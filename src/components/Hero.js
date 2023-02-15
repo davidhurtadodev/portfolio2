@@ -43,7 +43,7 @@ const Hero = () => {
             </a>
             <div className="git-in-container">
               <div>
-                <a href="https://github.com/davidhuertado">
+                <a href="https://github.com/davidhurtadodev">
                   <i className="fa-brands fa-github pointer"></i>
                 </a>
               </div>
